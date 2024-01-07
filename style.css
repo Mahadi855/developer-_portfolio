@@ -70,9 +70,9 @@ nav a {
 
 .header {
     background-color: var(--bg);
-    background-image: url(images/header_bg.png);
+    background-image: url(images/developer.png),url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: top left,bottom right;
 }
 
 .banner {
