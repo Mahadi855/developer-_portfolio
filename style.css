@@ -1,47 +1,62 @@
-/* common */
+/* common ===========================*/
 :root {
     --accent1: #FD6E0A;
     --text1: #474747;
-    --text2: #181818;;
-  }
-*{
+    --text2: #181818;
+    --text3: #757575;
+    --bg: #fff8f3;
+}
+
+.sec-title {
+    color: var(----text2);
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Nav */
-nav{
+/* Nav ============================*/
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
-.nav-title{
-    color:var(--text2);
+.nav-title {
+    color: var(--text2);
     font-family: 'Open Sans';
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.nav-title-sp{
+
+.nav-title-sp {
     color: var(--accent1);
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav  li {
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--text1);
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: var(--accent1);
     border: 0px;
@@ -49,4 +64,95 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* Header =============================*/
+
+.header {
+    background-color: var(--bg);
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    margin-bottom: 0px;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bnr-content {
+    max-width: 500px;
+}
+
+.bnr-greet {
+    font-size: 40px;
+    color: var(--text1);
+    margin-bottom: 0px;
+}
+
+.bnr-title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.bnr-dscrp {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+/* main ================= */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* About ========================================= */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: var(--bg);
+    margin: 130px auto;
+}
+
+.sec-dscrp {
+
+    color: var(--text3);
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: var(--text3);
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.info-dscrp {
+    color: var(--text1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
