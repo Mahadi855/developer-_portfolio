@@ -3,7 +3,9 @@
     font-family: 'Pixelify Sans';
     --accent1: #1cefb3;
     --bg: #fff8f3;
-    background-image: url(images/output-onlinepngtools.png);
+    background-image: url(images/design-space-paper-textured-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -42,11 +44,12 @@ body {
 /* Header =============================*/
 
 .header {
-    margin-top: 10%; /*temp*/
-    height: 700px;
+    margin-top: 7%;
+    /*temp*/
+    height: 750px;
     background-image: url(images/header_bg.png);
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.447);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.447);
 }
 
 nav {
@@ -93,7 +96,8 @@ nav a:hover {
     font-weight: 600;
     line-height: normal;
 }
-.btn-primary a{
+
+.btn-primary a {
     text-decoration: none;
     color: var(--White-Color, #FFF);
     font-size: 20px;
@@ -113,7 +117,7 @@ nav a:hover {
 
 .banner {
     width: 600px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 54px;
 }
 
@@ -134,6 +138,7 @@ nav a:hover {
     font-weight: 700;
     line-height: normal;
 }
-.bnr-dscrp{
+
+.bnr-dscrp {
     margin: 0px auto 30px;
 }
